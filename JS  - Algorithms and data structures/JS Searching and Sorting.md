@@ -120,7 +120,7 @@ return items;
 
 ...
 
-## COunt dort: counts by the occurence of a number
+## Count dort: counts by the occurence of a number
 
 works only for numbers in a certai range,
 Complexity of O(k+n)

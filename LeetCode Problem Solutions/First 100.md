@@ -105,7 +105,7 @@ var fizzBuzz = function(n) {
 ---
 
 
-## Steps to Zero
+4. Steps to Zero
 
 ## MI
 
@@ -136,3 +136,24 @@ int numberOfSteps (int num) {
         }
         return res - 1;
     }
+
+
+---
+
+5. find median Array
+
+## MI
+
+var findMedianSortedArrays = function(nums1, nums2) {
+   var arr = nums1.concat(nums2);
+    arr.sort(function(a, b){return a - b});
+    
+    if(arr.length % 2 == 0){
+        return (arr[arr.length / 2] + arr[(arr.length / 2) - 1]) / 2;
+    }else{
+        return arr[Math.floor(arr.length / 2)];
+    }
+    
+};
+
+## FS
