@@ -63,5 +63,7 @@ requirements;
 hash function commonly used: hash2(x) = R − (x % R)
 
 
-## Hash table Implementation
+## Notes from other sources
 
+
+The great thing about Hash tables is they have the coveted time complexity of O(1) for most operations.
