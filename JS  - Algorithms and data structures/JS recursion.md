@@ -104,7 +104,6 @@ function PermutateArray(arr){
     i1 = i2;
     i2 = temp;
   }
-
-
-  
 }
+
+<!-- This isn't over... TO be continued -->
